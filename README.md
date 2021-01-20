@@ -26,7 +26,7 @@ python3 etl.py
 
 ## Diagram of the project
 To summarize the project and give a little overiew, this diagram will help you understand it at the higher level.
-![Screenshot](sparkify_data_spark_etl_architecture.png.png)
+![Screenshot](sparkify_data_spark_etl_architecture.png)
 
 This project in a real company (I know, I'm not the real sparkify company, crazy, right?) would have a more complex architecture involving EMR cluster, maybe some lambdas that execute certain business needs that doesn't require the whole ETL or maybe some other things specially to meet the business needs. Since this project was to kind of get to know Spark's transformation and analytical power without spending a lot of money like a real company, we used little to no computing power in the cloud.
 Overall, I really enjoyed this project.
